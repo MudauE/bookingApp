@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: verdana;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.full-img{
+    background: url('https://www.psiusa.com/wp-content/uploads/2014/10/building-envelope.jpg'); 
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+}

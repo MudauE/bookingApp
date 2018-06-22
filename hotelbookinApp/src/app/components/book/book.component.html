@@ -1,0 +1,28 @@
+<ul>
+    <li><a routerLink="/booking-app">Booking-app</a></li>
+  <li><a routerLink="/about" >About</a></li>
+   <li><a routerLink="/contact" >Contact</a></li>
+   <li><a routerLink="/book" >Book</a></li>
+   <li><a routerLink="/photo">Photo</a></li>
+   
+   </ul>
+
+<div class="form-container">
+  <h1>Booking</h1>
+  
+      <label for="firstname" firstname>Name</label>
+      <input type="text" name="name" [(ngModel)] = "name">
+      <label for="firstname"surname>Surname</label> 
+      <input type="text" name="surname" [(ngModel)] = "surname"> 
+     
+      <label for="time" >time</label>
+      <input type="time" name="time" [(ngModel)] = "time">
+      <label for="date" >Date</label>
+      <input type="date" name="date" [(ngModel)] = "date"> 
+      <input type="submit" name="submit" (click) = "bookings()" id="submit"> 
+
+  
+</div>
+
+<router-outlet></router-outlet>
+
